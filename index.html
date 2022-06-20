@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<!-- CONFIGURAÇÕES -->
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Bananil</title>
+</head>
+<!-- CORPO -->
+
+<body>
+    <div class="container">
+        <!-- CABEÇALHO -->
+        <header class="cabecalho">
+            <!-- LOGO -->
+            <figure class="cabecalho__logo">
+                <img src="assets/img/nana.svg" alt="Logo Bananil" id="nana">
+                <figcaption hidden>Logo Bananil</figcaption>
+            </figure>
+            <!-- MENU -->
+            <nav class="cabecalho__menuNavegacao">
+                <!-- LISTA DE LINKS -->
+                <ul class="cabecalho__menuLista">
+                    <li class="cabecalho__menuItem">
+                        <img src="./assets/img/paginaInicial.svg" alt="" class="icones-nav">
+                        <a href="">Página Inicial</a>
+                    </li>
+
+                    <li class="cabecalho__menuItem">
+                        <img src="./assets/img/explorar.svg" alt="" class="icones-nav">
+                        <a href="">Explorar</a>
+                    </li>
+
+                    <li class="cabecalho__menuItem">
+                        <img src="./assets/img/notificacoes.svg" alt="" class="icones-nav">
+                        <a href="">Notificações</a>
+                    </li>
+
+                    <li class="cabecalho__menuItem">
+                        <img src="./assets/img/mensagens.svg" alt="" class="icones-nav">
+                        <a href="">Mensagens</a>
+                    </li>
+
+                    <li class="cabecalho__menuItem">
+                        <img src="./assets/img/salvos.svg" alt="" class="icones-nav">
+                        <a href="">Itens salvos</a>
+                    </li>
+
+                    <li class="cabecalho__menuItem">
+                        <img src="./assets/img/listas.svg" alt="" class="icones-nav">
+                        <a href="">Listas</a>
+                    </li>
+
+                    <li class="cabecalho__menuItem">
+                        <img src="./assets/img/perfil.svg" alt="" class="icones-nav">
+                        <a href="">Perfil</a>
+                    </li>
+
+                    <li class="cabecalho__menuItem">
+                        <img src="./assets/img/mais.svg" alt="" class="icones-nav">
+                        <a href="">mais</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- PRINCIPAL -->
+        <main class="conteudoPrincipal">
+            <!-- TITULO -->
+            <h2 class="conteudoPrincipal__titulo">Home</h2>
+            <!-- FORMULARIO -->
+            <form action="#" class="conteudoPrincipal__formulario">
+                <textarea name="textoBostejada" placeholder="O que está acontecendo?"></textarea>
+                <button type="submit">Publicar</button>
+            </form>
+            <!-- FEED DE NOTÍCIAS -->
+            <section class="conteudoPrincipal__feed">
+                <!-- LISTA DE NOTCIAS -->
+                <ul class="conteudoPrincipal__listaBostejadas">
+                    <!-- IMAGEM DO USUARIO -->
+                    <li class="conteudoPrincipal__bostejada">
+                        <img src="assets/img/perfil1.png" alt="Perfil" class="bostejada__fotoPerfil">
+                    <!-- CAIXA DE INFORMAÇÕES DO USUÁRIO -->
+                        <div class="bostejada__conteudo">
+                        <h2>Macaquil</h2>
+                            <span>
+                                @macacoMankey
+                            </span>
+                            <p>
+                                Intankável o Bostil
+                            </p>
+                        </div>
+                    </li>
+                    <li class="conteudoPrincipal__bostejada">
+                        <img src="assets/img/perfil2.png" alt="Perfil" class="bostejada__fotoPerfil">
+                    <!-- CAIXA DE INFORMAÇÕES DO USUÁRIO -->
+                        <div class="bostejada__conteudo">
+                        <h2>Macaquil</h2>
+                            <span>
+                                @macacoMankey
+                            </span>
+                            <p>
+                                Intankável o Bostil
+                            </p>
+                        </div>
+                    </li>
+                    <li class="conteudoPrincipal__bostejada">
+                        <img src="assets/img/perfil3.png" alt="Perfil" class="bostejada__fotoPerfil">
+                    <!-- CAIXA DE INFORMAÇÕES DO USUÁRIO -->
+                        <div class="bostejada__conteudo">
+                        <h2>Macaquil</h2>
+                            <span>
+                                @macacoMankey
+                            </span>
+                            <p>
+                                Intankável o Bostil
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </main>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
